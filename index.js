@@ -31,6 +31,8 @@ app.post("/materias", (req, res) => {
   //   localhost:4007/materias?nombre=Matematicas&descripcion=Materia+de+numeros&creditos=4
   //   const { nombre, descripcion, creditos } = req.query;
 
+  //   console.log("modufucaic")
+
   const nuevaMateria = {
     nombre,
     descripcion,
